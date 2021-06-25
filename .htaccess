@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+IndexIgnore */*
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !^/API/v1/api.php$
+RewriteRule ^API/v1/(.*)$ /API/v1/api.php
