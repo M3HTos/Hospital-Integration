@@ -1,3 +1,4 @@
+for_upload/temp/*
 config.php
 vendor
 logs
