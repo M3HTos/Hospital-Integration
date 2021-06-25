@@ -1,4 +1,5 @@
 for_upload/temp/*
+!for_upload/temp/.gitkeep
 config.php
 vendor
 logs
